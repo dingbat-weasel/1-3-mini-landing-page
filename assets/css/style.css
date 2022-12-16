@@ -1,0 +1,32 @@
+/*
+#7B72A3
+#483E75    
+#ACBBD6
+#DBB279
+#A38872 
+*/
+
+
+
+* {
+    background-color: #ACBBD6;
+}
+
+.header {
+    background-color: #483E75;
+    position: relative;
+}
+
+.header h1 {
+    position: relative;
+    padding: 10px;
+    margin: 15px;
+    background-color: transparent;
+}
+
+.header ul li {
+    display: inline;
+    padding: 10px;
+    background-color: transparent;
+
+}
