@@ -18,8 +18,10 @@
 
 li,
 h1,
+h2,
 a,
-button {
+button,
+p {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -27,12 +29,16 @@ button {
     text-decoration: none;
 }
 
+/* /// Header /// */
+
 header {
     display: flex;
+    flex-wrap: wrap;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 }
+
 
 .logo {
     cursor: pointer;
@@ -64,8 +70,56 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: 20px;
+
 }
 
 button:hover {
     background-color: rgba(129, 178, 154, 0.8);
+}
+
+
+/* /// Body /// */
+
+h2 {
+    display: flex;
+    font-size: 24px;
+    margin: 1rem;
+    justify-content: flex-start;
+    background-color: #81b29a;
+}
+
+p {
+    font-size: 16px;
+    padding: 3px 10px;
+    text-align: justify;
+    background-color: #81b29a;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin: 1rem;
+    max-height: 600px;
+
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    max-width: 450px;
+}
+
+
+#about_me {
+    background-color: #81b29a;
+}
+
+#responsive_image {
+    max-width: 100%;
+
+    height: auto;
+    max-height: 600px;
+    background-color: transparent;
 }
